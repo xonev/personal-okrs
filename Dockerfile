@@ -1,6 +1,6 @@
 FROM python:3.7.2
 
-ENV FLASK_APP=update_dossier
+ENV FLASK_APP=personal_okrs
 ENV FLASK_ENV=development
 
 WORKDIR /code
