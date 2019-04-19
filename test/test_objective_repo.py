@@ -7,5 +7,5 @@ def test_create():
 
 def test_create_with_data():
     repo = ObjectiveRepo()
-    assert repo.create({'description': 'Really good objective'})\
-        == {'title': 'New Objective', 'description': 'Really good objective'}
+    assert repo.create({'description': 'Really good objective'}) == \
+        {'title': 'New Objective', 'description': 'Really good objective'}
