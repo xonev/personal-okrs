@@ -1,6 +1,7 @@
 from personal_okrs import db, create_app
+from personal_okrs.data_model import *
 
-create_app()
+app = create_app()
 
-db.drop_all()
-db.create_all()
+db.drop_all(app=app)
+db.create_all(app=app)
